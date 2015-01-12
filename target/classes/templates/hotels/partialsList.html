@@ -1,0 +1,33 @@
+<div th:fragment="content">
+	<div ng-controller="HotelCtrl">
+		<table datatable="ng" dt-options="dtOptions"
+			dt-column-defs="dtColumnDefs" class="row-border hover">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Address</th>
+					<th>Zip</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="hotel in hotels">
+					<td>{{ hotel.name }}</td>
+					<td>{{ hotel.address }}</td>
+					<td>{{ hotel.zip }}</td>
+					<td style="width: 10%;"><a class="btn btn-primary"
+						ui-sref="hotels/edit({ hotelId: hotel.id })">Edit</a> <a
+						class="btn btn-danger" ng-click="deleteHotel(hotel)">Delete</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<br /> <br />
+
+	<div class="row">
+		<div class="col-xs-12">
+			<a ui-sref="hotels/create" class="btn btn-default">New Hotel</a>
+		</div>
+	</div>
+</div>

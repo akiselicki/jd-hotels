@@ -1,0 +1,12 @@
+packaging:
+  add:
+    - target/${project.build.finalName}.jar
+ports:
+  - 8080
+links:
+  - mysql:db
+healthChecks:
+  pings:
+    - url: http://localhost:8080/
+      timeout: 60000
+tag: ${project.artifactId}-app

@@ -1,0 +1,6 @@
+#FROM mysql:latest
+
+FROM ubuntu:latest
+
+RUN apt-get -qq update
+RUN apt-get -y install mysql-server

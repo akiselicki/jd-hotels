@@ -1,0 +1,8 @@
+packaging:
+  add:
+    - target/${project.build.finalName}.jar
+ports:
+  - 8080
+links:
+  - mysql:db
+tag: ${project.artifactId}-app

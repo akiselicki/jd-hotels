@@ -1,0 +1,41 @@
+<div th:fragment="content">
+	<div class="row">
+		<div class="col-xs-12">
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="hotel.id" class="col-xs-2">Hotel</label>
+
+					<div class="col-xs-6">
+						<select class="form-control" ng-model="room.hotel.id" required="required"
+						  ng-options="hotel.id as hotel.name for hotel in hotels" >
+						    <option style="display:none" value="">Select Hotel</option>
+						</select>				
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="number" class="col-xs-2">Room Number</label>
+
+					<div class="col-xs-6">
+						<input class="form-control" placeholder="Room Number"
+							ng-model="room.number" />
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="price" class="col-xs-2">Price</label>
+
+					<div class="col-xs-6">
+						<input class="form-control" placeholder="Price" ng-model="room.price" />
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="occupied" class="col-xs-2">Occupied</label>
+
+					<div class="col-xs-6">
+						<input class="form-control" placeholder="Occupied" ng-model="room.occupied" />
+					</div>
+				</div>
+				<a class="btn btn-default" ng-click="updateRoom()">Submit</a>
+			</form>
+		</div>
+	</div>
+</div>

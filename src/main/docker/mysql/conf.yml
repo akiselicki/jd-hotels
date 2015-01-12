@@ -1,0 +1,8 @@
+ports:
+  - 3306
+tag: ${project.artifactId}-mysql
+env:
+  MYSQL_ROOT_PASSWORD: root
+  MYSQL_DATABASE: hotels
+  DB_USER: root
+  DB_USER_PASS: root

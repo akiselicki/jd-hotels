@@ -1,0 +1,11 @@
+ports:
+  - 3306
+tag: ${project.artifactId}-mysql
+env:
+  MYSQL_ROOT_PASSWORD: root
+  MYSQL_DATABASE: hotels
+  DB_URL: ${DB_PORT_3306_TCP_ADDR}
+  DB_PORT: 3306
+  DB_NAME: hotels
+  DB_USER: root
+  DB_USER_PASS: root

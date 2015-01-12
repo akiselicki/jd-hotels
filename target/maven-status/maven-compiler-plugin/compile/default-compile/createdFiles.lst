@@ -1,0 +1,17 @@
+mvctest/controller/RestRoomController.class
+mvctest/WebConfig.class
+mvctest/model/Room.class
+mvctest/model/Hotel.class
+mvctest/controller/RoomController.class
+mvctest/controller/HotelController.class
+mvctest/model/User.class
+mvctest/repository/AuthorityRepository.class
+mvctest/controller/RestHotelController.class
+mvctest/repository/RoomRepository.class
+mvctest/repository/HotelRepository.class
+mvctest/WebSecurityConfig.class
+mvctest/model/Authority.class
+mvctest/SampleWebApplication.class
+mvctest/repository/UserRepository.class
+mvctest/controller/UserController.class
+mvctest/validator/UserValidator.class

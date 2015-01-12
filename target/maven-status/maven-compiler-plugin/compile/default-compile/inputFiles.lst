@@ -1,0 +1,17 @@
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/model/Authority.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/controller/HotelController.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/repository/HotelRepository.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/model/Hotel.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/controller/RoomController.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/repository/UserRepository.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/WebSecurityConfig.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/model/Room.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/controller/RestHotelController.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/validator/UserValidator.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/repository/RoomRepository.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/SampleWebApplication.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/model/User.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/controller/UserController.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/WebConfig.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/repository/AuthorityRepository.java
+/home/akiselicki/Docker/maven-docker-test-ubuntu/src/main/java/mvctest/controller/RestRoomController.java

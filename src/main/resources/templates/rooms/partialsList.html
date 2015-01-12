@@ -1,0 +1,35 @@
+<div th:fragment="content">
+	<div ng-controller="RoomCtrl">
+		<table datatable="ng" dt-options="dtOptions"
+			dt-column-defs="dtColumnDefs" class="row-border hover">
+			<thead>
+				<tr>
+					<th>Hotel</th>
+					<th>Room Number</th>
+					<th>Price</th>
+					<th>Occupied</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="room in rooms">
+					<td>{{ room.hotel.name }}</td>
+					<td>{{ room.number }}</td>
+					<td>{{ room.price }}</td>
+					<td>{{ room.occupied }}</td>
+					<td style="width: 10%;"><a class="btn btn-primary"
+						ui-sref="rooms/edit({ roomId: room.id })">Edit</a> <a
+						class="btn btn-danger" ng-click="deleteRoom(room)">Delete</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<br /> <br />
+
+	<div class="row">
+		<div class="col-xs-12">
+			<a ui-sref="rooms/create" class="btn btn-default">New Room</a>
+		</div>
+	</div>
+</div>

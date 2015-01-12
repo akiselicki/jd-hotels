@@ -1,0 +1,8 @@
+packaging:
+  add:
+    - target/spring-boot-mvc-test-1.0.0-SNAPSHOT.jar
+ports:
+  - 8080
+links:
+  - mysql:db
+tag: spring-boot-mvc-test-app
