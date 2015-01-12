@@ -95,6 +95,7 @@
 				<!-- do/do not cache images (default true), disable to get the freshest images -->
 				<cache>true</cache>
 			    </configuration>
+<!--
 				<executions>
 				    <execution>
 				        <id>default-cli</id>
@@ -108,8 +109,6 @@
 				        </goals>
 				    </execution>
 				    <execution>
-				        <!-- normally we'd bind to the default deploy phase, but as this is an integration test and we
-				        don't do that phase -->
 				        <id>push</id>
 				        <phase>install</phase>
 				        <goals>
@@ -117,6 +116,7 @@
 				        </goals>
 				    </execution>
 				</executions>
+-->
 			</plugin>
 		</plugins>
 	</build>
