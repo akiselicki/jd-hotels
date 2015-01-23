@@ -89,7 +89,7 @@
 	                    <version>2.2.0</version>
 			    <configuration>
 				<!-- change here if you are using another port/host, e.g. 4243 -->
-				<host>http://10.1.65.12:2375</host>
+				<host>http://localhost:2375</host>
 				<!-- remove images created by Dockerfile -->
 				<removeIntermediateImages>true</removeIntermediateImages>
 				<!-- do/do not cache images (default true), disable to get the freshest images -->
